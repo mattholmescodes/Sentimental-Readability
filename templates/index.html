@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Oswald:wght@200..700&family=Sigmar&display=swap" rel="stylesheet">
+    <link href="/static/styles.css" rel="stylesheet">
+
+    <title>Readability</title>
+</head>
+
+<body>
+    <h1>Readability Checker</h1>
+
+    <form method="post" action="/">
+        <textarea placeholder="Enter text..." name="text" required></textarea><br>
+        <button type="submit">Calculate Grade</button>
+    </form>
+    {% if result %}
+    <div class="result">
+        Result: {{ result }}
+    </div>
+    {% endif %}
+</body>
+</html>

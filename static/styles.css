@@ -1,0 +1,57 @@
+h1 {
+    font-family: cinzel, sans-serif;
+    font-size: 3.2rem;
+    font-weight: 400px;
+    text-align: center;
+}
+
+body {
+    background: url("background.jpg");
+    background-size: cover;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+form {
+    display: block;
+    justify-content: center;
+}
+
+textarea {
+    font-family: Oswald, sans-serif;
+    margin-top: 100px;
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 150px;
+    border: 50px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 28px;
+    font-family: Oswald, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.3s ;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.result {
+    font-family: sigmar, sans-serif;
+    font-size: 3.5rem;
+    margin-top: 100px;
+    text-align: center;
+}
