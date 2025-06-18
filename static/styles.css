@@ -1,8 +1,9 @@
 h1 {
     font-family: cinzel, sans-serif;
-    font-size: 3.2rem;
-    font-weight: 400px;
+    font-size: 3.3rem;
+    font-weight: 800px;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 body {
@@ -12,14 +13,28 @@ body {
     margin: 2rem auto;
 }
 
+.card {
+    background: linear-gradient(
+        135deg,
+        rgba(150, 196, 255, 0.9),
+        rgba(255, 180, 226, 0.9)
+    );
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 2rem;
+    margin: 2rem auto;
+    margin-top: 100px;
+    max-width: fit-content;
+}
+
 form {
     display: block;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 textarea {
     font-family: Oswald, sans-serif;
-    margin-top: 100px;
     resize: none;
     font-size: 20px;
     font-weight: bold;
