@@ -18,7 +18,8 @@
             <h1>Readability Checker</h1>
 
             <form id="read-form" method="post" action="/">
-                <textarea placeholder="Enter text..." name="text" required></textarea><br>
+                <textarea placeholder="Enter text..." name="text" required></textarea>
+                <br>
                 <button type="submit">Calculate Grade</button>
             </form>
         </div>
@@ -26,6 +27,7 @@
             {% if result %}
             <div class="result">
                 {{ result }}
+                <button id="back-btn" type="submit">Restart</button>
                 </div>
             {% endif %}
         </div>
@@ -42,6 +44,16 @@
             inner.classList.add("is-flipped");
             setTimeout(() => form.submit(), 400);
         });
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+        const inner = document.getElementById("card-inner");
+        const btn = document.getElementById("back-btn");
+        if (btn) {
+            btn.addEventListener("click", () => {
+                inner.classList.remove("is-flipped", "instant");
+                document.querySelector("textarea").value="";
+            });
+        };
     });
 </script>
 </body>
