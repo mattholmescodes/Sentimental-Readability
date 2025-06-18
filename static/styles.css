@@ -1,8 +1,8 @@
 h1 {
-    font-family: cinzel, sans-serif;
-    font-size: 3.3rem;
-    font-weight: 800px;
+    font-family: Caprasimo, sans-serif;
+    font-size: 3.9rem;
     text-align: center;
+    font-weight: lighter;
     margin-bottom: 1.5rem;
 }
 
@@ -23,14 +23,14 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     padding: 2rem;
     margin: 2rem auto;
-    margin-top: 100px;
-    max-width: fit-content;
+    display: block;
+    justify-content: center;
+    margin-top: 120px;
 }
 
 form {
     display: block;
     justify-content: center;
-    margin-bottom: 100px;
 }
 
 textarea {
@@ -42,6 +42,7 @@ textarea {
     height: 150px;
     border: 50px;
     border-radius: 10px;
+    margin-top: 5rem;
 }
 
 button {
