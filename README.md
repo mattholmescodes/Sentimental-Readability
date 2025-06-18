@@ -1,31 +1,9 @@
-# CS50 Readability
+# CS50 Readability (Flask)
 
-A CLI script that uses the Coleman-Liau index to estimate the U.S. grade-level reading age of any text.
+Taken from CS50's Sentimental Readability, this is a flask app which computes the reading grade of text excerpts using the Coleman-Liau index
 
-## Download and run
+## Features
 
-1. **Clone this repo**
-
-   ```bash
-   https://github.com/mattholmescodes/Sentimental-Readability.git
-   cd Sentimental-Readability
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   pip install cs50
-   ```
-
-3. **Run the script**
-
-   ```bash
-   python readability.py
-   ```
-
-4. **Enter your text** when prompted, for example:
-
-   ```bash
-   Text: This is only to be used for educational purposes. Copying this solution violates the courses academic policy.
-   Grade 12
-   ```
+- **3D Flip-Card UI**: A card that flips to reveal the grade after submission, then flips back to allow new entries.
+- **Responsive Design**: Works on both mobile and desktop.
+- **Customizable Styles**: Uses CSS gradients, fonts from Google Fonts, and smooth transitions.
