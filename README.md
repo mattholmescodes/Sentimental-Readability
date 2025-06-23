@@ -12,7 +12,7 @@ Taken from CS50's Sentimental Readability, this is a flask app which computes th
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/readability-checker.git
+git clone https://github.com/mattholmescodes/readability-checker.git
 cd readability-checker
 ```
 
