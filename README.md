@@ -32,12 +32,7 @@ on Windows (PowerShell):
 .\venv\Scripts\Activate.ps1
 ```
 
-4. **Install Python dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-5. **Set up environment variables**
+4. **Set up environment variables**
 
 Create a .env file at the project root with at least:
 ```bash
@@ -51,18 +46,18 @@ import secrets; print("SECRET_KEY=" + secrets.token_hex(16))
 EOF
 ```
 
-6. **Configure Flask**
+5. **Configure Flask**
 ```bash
 export FLASK_APP=app.py # macOS / Linux
 $Env:FLASK_APP = "app.py" # Windows PowerShell
 ```
 
-7. **Run the application**
+6. **Run the application**
 ```bash
 flask run
 ```
 
-8. **Visit in your browser**
+7. **Visit in your browser**
 ```bash
 Open http://127.0.0.1:5000
 ```
