@@ -48,8 +48,8 @@ EOF
 
 5. **Configure Flask**
 ```bash
-export FLASK_APP=app.py # macOS / Linux
-$Env:FLASK_APP = "app.py" # Windows PowerShell
+export FLASK_APP=readability.py # macOS / Linux
+$Env:FLASK_APP = "readability.py" # Windows PowerShell
 ```
 
 6. **Run the application**
