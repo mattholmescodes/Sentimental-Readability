@@ -26,8 +26,9 @@ on macOS / Linux:
 ```bash
 source venv/bin/activate
 ```
+
 on Windows (PowerShell):
-```powershell
+```
 .\venv\Scripts\Activate.ps1
 ```
 
@@ -37,10 +38,12 @@ pip install -r requirements.txt
 ```
 
 5. **Set up environment variables**
+
 Create a .env file at the project root with at least:
 ```bash
 SECRET_KEY=<a-random-hex-string>
 ```
+
 You can generate one with:
 ```bash
 python3 - <<EOF
